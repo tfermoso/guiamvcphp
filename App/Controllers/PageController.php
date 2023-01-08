@@ -1,11 +1,12 @@
 <?php
 
-class PageController{
+class PageController extends Controller{
     public function home(){
-        echo 'estoy en home';
+        //require_once(__DIR__.'/../Views/home.view.php');
+        $this->render("home");
     }
     public function listar(){
-        echo 'estoy en listar';
+        require_once(__DIR__.'/../Views/listar.view.php');
     }
     public function modificar(){
         echo 'estoy en modificar';
