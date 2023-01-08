@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="<?=URL_PATH?>/Assets/css/style.css">
+    <script src="<?=URL_PATH?>/Assets/js/scritp.js"></script>
 </head>
 <body>
     <h1>Home</h1>
